@@ -11,7 +11,7 @@ class LearnSwitchCase {
                 System.out.println("You love fruits");
                 break;
             case 2:
-                System.out.println("You love vegetables11111111111111111111111111")
+                System.out.println("You love vegetables11111111111111111111111111");
                 break;
             default:
                 System.out.println("You are non vegetarian");
