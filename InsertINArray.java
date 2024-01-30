@@ -102,6 +102,11 @@ public class InsertINArray {
     }
 
     public static void deleteIn2dArray(int arr[][], int pos1, int pos2) {
+        // for (int i = pos2; i <= arr[pos1].length - 2; i++) { // this code will also
+        // work
+        // arr[pos1][i] = arr[pos1][i + 1];
+        // }
+        // arr[pos1][arr[pos1].length - 1] = 0; 
         delete(arr[pos1], pos2);
     }
 

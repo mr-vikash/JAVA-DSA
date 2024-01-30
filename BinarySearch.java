@@ -7,7 +7,7 @@ public class BinarySearch {
 
         binarySearch(arr, target);
         binarySearchDesc(arr1, target);
-        binarySearchOrderAgnostic(arr1, target);
+        binarySearchOrderAgnostic(arr, target);
     }
 
     private static void binarySearch(int[] arr, int target) {
